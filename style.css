@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #0093E9;
+  background: url(./back.jpg);
+  background-size: cover;
+  /* background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%); */
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+
+main {
+  max-width: 30%;
+  min-height: 50vh;
+  margin: 50px auto;
+  padding: 20px;
+  border: 1px solid rgb(170, 170, 170);
+  border-top: 1px solid rgb(209, 209, 209);
+  border-right: 1px solid rgb(209, 209, 209);
+  border-radius: 20px;
+  background: rgba(76, 187, 56, 0.404);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  box-shadow: 0 0 40px 20px rgba(0, 0, 0, 0.192);
+}
+
+.txtb {
+  width: 100%;
+  border: none;
+  border-bottom: 2px solid #000;
+  background: none;
+  padding: 10px;
+  outline: none;
+  font-size: 18px;
+}
+
+h3 {
+  margin: 10px 0;
+}
+
+.task {
+  width: 100%;
+  background: #85FFBD;
+  background-image: linear-gradient(45deg, #85FFBD 0%, #c9ff7d 100%);
+  padding: 20px;
+  margin: 5px auto;
+  overflow: hidden;
+  border-radius: 20px;
+}
+
+.task i {
+  float: right;
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+.comp .task {
+  background-color: #57643c;
+  background-image: linear-gradient(132deg, #16A085 0%, #145346 100%);
+
+  color: #fff;
+}
